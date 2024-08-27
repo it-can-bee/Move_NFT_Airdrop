@@ -1,0 +1,14 @@
+[package]
+name = "hello_nft"
+#edition = "2024.alpha"
+published-at = "0xe498835088b91272752eb02aa0ea789d2c9bbc39fedbccde7b1cf647c158e7c9"
+version = "0.0.2"
+
+[dependencies]
+MoveStdlib = {local = "../../../../mgo-devnet/move-stdlib" }
+Mgo = { local = "../../../../mgo-devnet/mgo-framework" }
+
+[addresses]
+hello_nft = "0x0"
+std = "0x1"
+mgo = "0x2"
